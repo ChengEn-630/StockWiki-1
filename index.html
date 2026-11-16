@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StockWiki 股票知識庫，整理股票基礎、技術分析與投資知識。">
+  <title>首頁｜StockWiki 股票知識庫</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><span class="brand-mark">S</span><span>Stock<span class="brand-accent">Wiki</span><small>股票知識庫</small></span></a>
+        <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">☰</button>
+        <nav class="main-nav">
+          <a class="active" href="index.html">首頁</a>
+          <a class="" href="pages/categories.html">知識分類</a>
+          <a href="pages/categories.html?category=technical">技術分析</a>
+          <a class="" href="pages/about.html">關於網站</a>
+        </nav>
+      </div>
+    </header>
+    
+  <main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> STOCK KNOWLEDGE & LEARNING</span>
+      <h1>把複雜的股票知識，<br><span>變得簡單好懂。</span></h1>
+      <p>從股票入門、技術分析到財務基本面，透過有系統的知識整理，建立自己的投資學習地圖。</p>
+      <form class="search-form" id="hero-search">
+        <span class="search-icon">⌕</span>
+        <input id="hero-search-input" type="search" placeholder="搜尋股票知識，例如：RSI、均線、EPS..." aria-label="搜尋股票知識">
+        <button type="submit">開始搜尋</button>
+      </form>
+      <div class="hero-hint">熱門搜尋：<button class="text-chip" data-search="RSI">RSI</button><button class="text-chip" data-search="均線">均線</button><button class="text-chip" data-search="EPS">EPS</button></div>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-card visual-main">
+        <div class="visual-top"><span>市場學習指標</span><span class="live-dot">● 知識整理</span></div>
+        <div class="visual-number">Learn <span>+</span></div>
+        <div class="visual-sub">從基礎概念到分析工具</div>
+        <div class="mini-chart"><span style="height:34%"></span><span style="height:48%"></span><span style="height:41%"></span><span style="height:62%"></span><span style="height:54%"></span><span style="height:78%"></span><span style="height:68%"></span><span style="height:91%"></span><span style="height:75%"></span><span style="height:100%"></span><span style="height:88%"></span><span style="height:96%"></span></div>
+        <div class="visual-bottom"><span>STOCKWIKI</span><span>LEARN AT YOUR PACE</span></div>
+      </div>
+      <div class="floating-note"><span class="note-icon">✦</span><span><b>系統化學習</b><small>讓知識更有條理</small></span></div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-heading"><div><span class="eyebrow">EXPLORE TOPICS</span><h2>探索知識分類</h2><p>依照你的學習需求，從不同主題開始探索。</p></div><a class="link-arrow" href="pages/categories.html">查看全部分類 <span>→</span></a></div>
+    <div class="category-grid" id="home-categories"></div>
+  </div>
+</section>
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-heading"><div><span class="eyebrow">FEATURED ARTICLES</span><h2>推薦閱讀</h2><p>從這些入門文章開始，逐步建立股票知識。</p></div><a class="link-arrow" href="pages/categories.html">瀏覽所有文章 <span>→</span></a></div>
+    <div class="article-grid" id="featured-articles"></div>
+  </div>
+</section>
+<section class="cta-section"><div class="container cta-box"><div><span class="eyebrow">YOUR LEARNING JOURNEY</span><h2>今天，就從一個概念開始。</h2><p>找到想了解的主題，讓每一次閱讀都成為累積。</p></div><a class="button button-light" href="pages/categories.html">開始探索 <span>→</span></a></div></section>
+</main>
+  
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">S</span><span>Stock<span class="brand-accent">Wiki</span><small>股票知識庫</small></span></a><p class="footer-note">讓股票知識更容易理解與查找。</p></div>
+        <p class="copyright">© 2026 StockWiki. 僅供教育與知識分享。</p>
+      </div>
+    </footer>
+    
+  <script src="js/articles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
